@@ -2,5 +2,5 @@
 <%= f.label :name %>
 <%= f.text_field :name %>
 <%= f.collection_check_boxes :ingredient_ids, Ingredient.all, :id, :name %>
-  <%= f.submit "Update Recipe" %>
+  <%= f.submit button_text %>
 <% end %>
